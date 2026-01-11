@@ -1,5 +1,7 @@
 # JalRakshak: Voice-First Flood Guardian for the North East
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsr-857%2FJalRakshak)
+
 JalRakshak is an AI-powered flood intelligence tool designed to convert satellite water-mask inference and public climate data into actionable, multilingual voice alerts for last-mile disaster response in North-East India.
 
 ## Core Features
