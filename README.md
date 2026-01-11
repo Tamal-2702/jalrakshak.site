@@ -41,12 +41,47 @@ We leverage open government and scientific datasets to ensure accuracy and scala
 - `/src/app/api`: AI inference endpoints (Next.js).
 
 ## Tech Stack
-- **Frontend**: Next.js 15, React 19, Tailwind CSS, Framer Motion.
-- **AI/ML**: Simulated Vision (SAR Mask) and Hydrological Fusion models.
-- **Voice**: Web Speech API + Simulated TTS API.
-- **Data**: Public IMD/CWC records (CSV).
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Run Instructions
+## System Architecture
+
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef core fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
+    classDef output fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+    classDef infra fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+
+    subgraph Data_Ingestion [Data Ingestion Layer]
+        A[Sentinel-1 SAR Data]:::input
+        C[IMD Rainfall Data]:::input
+        D[CWC River Levels]:::input
+    end
+
+    subgraph Processing_Core [AI Processing Core]
+        A -->|Water Mask Anomaly| B(AI Inference Engine):::core
+        C -->|Forecast Models| B
+        D -->|Real-time Telemetry| B
+        B -->|Fusion & Risk Logic| E{Flood Risk Engine}:::core
+    end
+
+    subgraph Delivery [Alert Delivery System]
+        E -->|Critical Risk Detected| F[Alert Generation Module]:::output
+        F -->|Text-to-Speech| G[Multilingual TTS Engine]:::output
+        G -- Assamese/Bengali --> H[Last-Mile User Device]:::output
+    end
+    
+    subgraph Infrastructure [Cloud Infrastructure]
+        I[Next.js Edge Functions]:::infra -.-> B
+        J[Vercel Global CDN]:::infra -.-> H
+    end
+```
 1. Clone the repository.
 2. Run `npm install`.
 3. Run `npm run dev`.
