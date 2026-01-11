@@ -328,97 +328,11 @@ graph TB
 | **📱 Devices** | 💻 Desktop Only<br/>Browser-specific | 📲 Universal Support<br/>Works on 2G networks | **🌈 Maximum Accessibility**<br/>No device left behind |
 | **🔄 Data Freshness** | 📆 Daily Updates Best<br/>Manual refresh | ⚡ Real-time Continuous<br/>15-minute intervals | **⏱️ Live Intelligence**<br/>Accurate every moment |
 
+
+
 ---
 
-## 🌟 Complete Innovation Landscape
-
-<div align="center">
-
-```mermaid
-graph TB
-    subgraph Innovation_Ecosystem ["🌊 JalRakshak Innovation Ecosystem"]
-        
-        subgraph Voice_Intelligence ["🎤 VOICE INTELLIGENCE"]
-            V1[📢 Multilingual TTS]
-            V2[🔊 Audio Optimization]
-            V3[📻 Broadcast Integration]
-            V4[🌐 Multi-channel Delivery]
-            
-            V1 --> V1A[Assamese • Bengali<br/>Hindi • English]
-            V2 --> V2A[Mobile Speakers<br/>Emergency Tone]
-            V3 --> V3A[Community Radio<br/>WhatsApp • SMS]
-        end
-        
-        subgraph AI_Technology ["🤖 AI TECHNOLOGY"]
-            A1[⚡ Live Processing]
-            A2[🔄 Multi-source Fusion]
-            A3[🎲 Confidence Engine]
-            A4[🔮 Prediction Models]
-            
-            A1 --> A1A[Real-time Inference<br/>< 2min Response]
-            A2 --> A2A[Satellite • Rainfall<br/>River Telemetry]
-            A3 --> A3A[Uncertainty Quantification<br/>Explainable AI]
-        end
-        
-        subgraph Privacy_Ethics ["🛡️ PRIVACY & ETHICS"]
-            E1[🚫 Zero Data Collection]
-            E2[✅ DPDP Compliance]
-            E3[⚖️ Responsible AI]
-            E4[🔒 Security First]
-            
-            E1 --> E1A[No Personal Info<br/>Session-based Only]
-            E2 --> E2A[Privacy by Design<br/>Consent-driven]
-            E3 --> E3A[Bias Mitigation<br/>Community-first]
-        end
-        
-        subgraph Deployment_Ready ["🚀 DEPLOYMENT READY"]
-            D1[✨ Production System]
-            D2[⏱️ Quick Setup]
-            D3[📈 Scalability]
-            D4[🔧 Support System]
-            
-            D1 --> D1A[99.9% Uptime<br/>Cloud Native]
-            D2 --> D2A[48hr Deploy<br/>30min Training]
-            D3 --> D3A[District → Nation<br/>Auto-scaling]
-        end
-    end
     
-    Voice_Intelligence --> AI_Technology
-    AI_Technology --> Privacy_Ethics
-    Privacy_Ethics --> Deployment_Ready
-    
-    style V1 fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
-    style V2 fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
-    style V3 fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
-    style V4 fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
-    style V1A fill:#ffa8a8,stroke:#c92a2a,stroke-width:2px,color:#000
-    style V2A fill:#ffa8a8,stroke:#c92a2a,stroke-width:2px,color:#000
-    style V3A fill:#ffa8a8,stroke:#c92a2a,stroke-width:2px,color:#000
-    
-    style A1 fill:#4c6ef5,stroke:#364fc7,stroke-width:3px,color:#fff
-    style A2 fill:#4c6ef5,stroke:#364fc7,stroke-width:3px,color:#fff
-    style A3 fill:#4c6ef5,stroke:#364fc7,stroke-width:3px,color:#fff
-    style A4 fill:#4c6ef5,stroke:#364fc7,stroke-width:3px,color:#fff
-    style A1A fill:#748ffc,stroke:#364fc7,stroke-width:2px,color:#fff
-    style A2A fill:#748ffc,stroke:#364fc7,stroke-width:2px,color:#fff
-    style A3A fill:#748ffc,stroke:#364fc7,stroke-width:2px,color:#fff
-    
-    style E1 fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
-    style E2 fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
-    style E3 fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
-    style E4 fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
-    style E1A fill:#8ce99a,stroke:#2f9e44,stroke-width:2px,color:#000
-    style E2A fill:#8ce99a,stroke:#2f9e44,stroke-width:2px,color:#000
-    style E3A fill:#8ce99a,stroke:#2f9e44,stroke-width:2px,color:#000
-    
-    style D1 fill:#ffd43b,stroke:#f59f00,stroke-width:3px,color:#000
-    style D2 fill:#ffd43b,stroke:#f59f00,stroke-width:3px,color:#000
-    style D3 fill:#ffd43b,stroke:#f59f00,stroke-width:3px,color:#000
-    style D4 fill:#ffd43b,stroke:#f59f00,stroke-width:3px,color:#000
-    style D1A fill:#ffe066,stroke:#f59f00,stroke-width:2px,color:#000
-    style D2A fill:#ffe066,stroke:#f59f00,stroke-width:2px,color:#000
-    style D3A fill:#ffe066,stroke:#f59f00,stroke-width:2px,color:#000
-```
 
 </div>
 
@@ -875,21 +789,6 @@ Enable instant walkthrough with pre-loaded demo data:
 - ✅ Public datasets (provided)
 - ✅ Minimal training needed
 
-### **Deployment Timeline**
-
-```mermaid
-gantt
-    title Pilot Deployment Roadmap
-    dateFormat  YYYY-MM-DD
-    section Phase 1
-    Setup & Integration    :a1, 2026-02-01, 7d
-    section Phase 2
-    District Onboarding    :a2, 2026-02-08, 14d
-    section Phase 3
-    Live Monitoring        :a3, 2026-02-22, 30d
-    section Phase 4
-    Feedback & Scale       :a4, 2026-03-24, 30d
-```
 
 ---
 
@@ -1063,7 +962,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 **Have questions? We're here to help!**
 
 [![GitHub Issues](https://img.shields.io/badge/Issues-Open-green?style=for-the-badge&logo=github)](https://github.com/sr-857/jalrakshak.site/issues)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:team@jalrakshak.site)
+[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:subhajitroy857+jalr@gmail.com)
 
 </div>
 
