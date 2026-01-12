@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/DPDP-Compliant-8b5cf6?style=for-the-badge&logo=shield&logoColor=white" alt="DPDP Compliant"/>
 <img src="https://img.shields.io/badge/Aatmanirbhar-Bharat-ff6b35?style=for-the-badge&logo=india&logoColor=white" alt="Aatmanirbhar"/>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsr-857%2Fjalrakshak.site)
+[![Deploy with Vercel](https://vercel.com/button)](https://jalrakshaksite.vercel.app/)
 
 ---
 
